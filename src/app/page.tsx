@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { Home as HomeIcon, BookOpen, Sparkles, Phone, Menu, ScrollText, MapPin, Clock, Mail } from "lucide-react";
+import Link from "next/link";
+import { Header } from "@/components/Header";
+import { Star, Clock, MapPin, Mail, ChevronDown, BookOpen, Sparkles, Phone, Menu, ScrollText, ArrowRight } from "lucide-react";
 
 const Spotlight = ({ flip = false }: { flip?: boolean }) => (
   <div className={`absolute -bottom-10 z-30 hidden md:block opacity-70 pointer-events-none mix-blend-screen ${flip ? 'left-0 md:-left-48 -scale-x-100' : 'right-0 md:-right-48'}`}>
@@ -38,54 +40,11 @@ const Spotlight = ({ flip = false }: { flip?: boolean }) => (
 
 export default function Home() {
   return (
-    <main id="inicio" className="bg-[#0a0a0a] font-sans">
+    <main className="bg-[#0a0a0a] font-sans">
       {/* Hero Wrapper - Keeps the background image contained to the first screen */}
-      <div className="relative min-h-screen flex flex-col">
-        {/* Header */}
-      <header className="fixed top-0 left-0 w-full z-50 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-        
-        {/* Premium Fading Glass Background - Only on the left half */}
-        <div 
-          className="absolute inset-0 w-full md:w-[70%] lg:w-[60%] h-full bg-black/70 backdrop-blur-md -z-10"
-          style={{
-            maskImage: 'linear-gradient(to right, black 60%, transparent 100%)',
-            WebkitMaskImage: 'linear-gradient(to right, black 60%, transparent 100%)'
-          }}
-        ></div>
-
-        <div className="relative z-10 flex items-center justify-start gap-12 md:gap-16 px-4 sm:px-8 md:px-12 lg:px-16 py-3">
-          <div className="flex items-center">
-            <div className="relative w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden border border-[#a87b51]/50 shadow-[0_0_15px_rgba(200,155,60,0.15)]">
-            <Image 
-              src="/Logo.jpg" 
-              alt="Logo Juarez Antigüedades" 
-              fill 
-              className="object-cover"
-            />
-          </div>
-        </div>
-        
-        <nav className="hidden md:flex items-center gap-8 text-xs md:text-sm font-sans font-semibold text-[#fdfbf7]/80">
-          <a href="#inicio" className="flex items-center gap-2 text-[#a87b51] transition-colors duration-300">
-            <HomeIcon className="w-4 h-4" /> Inicio
-          </a>
-          <a href="#historia" className="flex items-center gap-2 hover:text-[#a87b51] transition-colors duration-300">
-            <BookOpen className="w-4 h-4" /> Historia
-          </a>
-          <a href="#coleccion" className="flex items-center gap-2 hover:text-[#a87b51] transition-colors duration-300">
-            <Sparkles className="w-4 h-4" /> Piezas destacadas
-          </a>
-          <a href="#contacto" className="flex items-center gap-2 hover:text-[#a87b51] transition-colors duration-300">
-            <Phone className="w-4 h-4" /> Contacto
-          </a>
-        </nav>
-        
-        {/* Mobile menu button */}
-        <button className="md:hidden ml-auto text-[#fdfbf7] p-2 hover:text-[#a87b51] transition-colors">
-          <Menu className="w-6 h-6" />
-        </button>
-        </div>
-      </header>
+      <section id="inicio" className="relative min-h-screen flex flex-col">
+      {/* Header */}
+      <Header />
 
       {/* Background Image Container */}
       {/* The image acts as the background, positioned absolutely to cover the screen.
@@ -345,7 +304,7 @@ export default function Home() {
           </button>
         </div>
       </section>
-      </div> {/* End Hero Wrapper */}
+      </section> {/* End Hero Wrapper */}
 
       {/* Sección Historia / Quiénes Somos */}
       <section id="historia" className="relative z-20 w-full bg-black pt-56 md:pt-72 pb-24 md:pb-32 px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 flex flex-col md:flex-row items-center gap-16 md:gap-24 overflow-hidden">
@@ -553,6 +512,29 @@ export default function Home() {
             </div>
           </div>
           
+          {/* Botón Ver Todos */}
+          <div className="flex justify-center mt-12 md:mt-16 w-full relative z-10 animate-fade-in-up" style={{ animationDelay: '1.4s' }}>
+            <Link href="/catalogo">
+              <button className="group relative px-8 md:px-10 py-4 border border-[#fdfbf7]/20 bg-transparent overflow-hidden rounded-full z-0 transition-colors duration-500 hover:duration-300">
+                <div className="absolute block h-[200%] w-[140%] rounded-full bg-[#a87b51] -z-10 top-[100%] left-[30%] transition-all duration-500 group-hover:top-[-35%] group-hover:left-[-20%]"></div>
+                
+                <div className="relative z-10 flex items-center gap-6">
+                  <span className="font-sans tracking-[0.2em] text-xs md:text-sm uppercase font-bold text-[#fdfbf7] transition-colors duration-500">
+                    Ver catálogo completo
+                  </span>
+                  <svg 
+                    className="w-4 h-4 text-[#a87b51] group-hover:text-[#fdfbf7] transform transition-all duration-500 group-hover:translate-x-2" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
+              </button>
+            </Link>
+          </div>
         </div>
       </section>
 

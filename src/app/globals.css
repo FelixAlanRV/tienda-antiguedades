@@ -134,3 +134,21 @@ body {
 .animate-fade-in {
   animation: fade-in 1.5s ease-out both;
 }
+
+@keyframes modal-zoom-in {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes modal-fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animate-modal-zoom {
+  animation: modal-zoom-in 0.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-modal-fade {
+  animation: modal-fade-in 0.2s ease-out both;
+}
