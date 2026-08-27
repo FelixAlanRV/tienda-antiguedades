@@ -137,15 +137,15 @@ export function CatalogClient() {
           <div className="flex gap-4 shrink-0 w-full xl:w-auto xl:mt-10">
             <button 
               onClick={() => { setEditingProduct(null); setIsModalOpen(true); }}
-              className="flex-1 xl:flex-none justify-center bg-[#a87b51] hover:bg-[#b98a5d] text-white px-6 py-2.5 rounded-lg transition-colors flex items-center gap-2 font-medium"
+              className="flex-1 xl:flex-none justify-center bg-[#a87b51] hover:bg-[#b98a5d] text-white px-4 py-2 rounded-lg transition-colors flex items-center gap-2 text-sm font-medium"
             >
-              <Plus className="w-5 h-5" />
+              <Plus className="w-4 h-4" />
               Añadir Producto
             </button>
             
             <button 
               onClick={handleLogout}
-              className="flex-1 xl:flex-none justify-center bg-white/5 hover:bg-white/10 border border-white/10 text-white/70 px-6 py-2.5 rounded-lg transition-colors flex items-center gap-2 font-medium"
+              className="flex-1 xl:flex-none justify-center bg-white/5 hover:bg-white/10 border border-white/10 text-white/70 px-4 py-2 rounded-lg transition-colors flex items-center gap-2 text-sm font-medium"
             >
               <LogOut className="w-4 h-4" />
               Cerrar Sesión
@@ -458,7 +458,7 @@ export function CatalogClient() {
               <div className="mt-10 pt-6 border-t border-white/10 flex flex-col gap-2">
                 <span className="text-[#a87b51] text-xs uppercase tracking-widest font-semibold">¿Te interesa esta pieza?</span>
                 <p className="text-[#fdfbf7]/70 text-sm font-light">
-                  Contáctanos por WhatsApp al <span className="text-white font-medium">+52 55 1234 5678</span> y menciona el título de esta antigüedad para brindarte más detalles.
+                  Contáctanos por WhatsApp al <span className="text-white font-medium">222 348 1666</span> y menciona el título de esta antigüedad para brindarte más detalles.
                 </p>
               </div>
             </div>

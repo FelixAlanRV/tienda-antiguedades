@@ -383,7 +383,7 @@ export default function Home() {
           
           {/* Item 1 */}
           <div className="flex flex-col md:flex-row items-center gap-12 md:gap-24 group relative animate-fade-in-right" style={{ animationDelay: '0.6s' }}>
-            <div className="absolute -top-4 md:-top-6 right-0 md:right-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1912</div>
+            <div className="absolute -top-4 md:-top-6 right-0 md:right-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1972</div>
             
             <Spotlight flip />
             <div className="w-full md:w-1/2 flex justify-center md:justify-end relative">
@@ -406,19 +406,19 @@ export default function Home() {
                   Disponible
                 </span>
               </div>
-              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Máquina <span className="text-[#a87b51] font-medium italic lowercase">mecánica</span></h3>
+              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Figura <span className="text-[#a87b51] font-medium italic lowercase">porcelana</span></h3>
               <p className="text-[#fdfbf7]/60 text-base md:text-lg font-light leading-relaxed max-w-sm mb-6">
-                Un artefacto de precisión del siglo pasado. Cada engranaje ha sido restaurado meticulosamente para preservar su mecanismo original, ofreciendo una ventana al ingenio industrial de la época.
+                Elegante escultura de porcelana finamente detallada. Sus delicados rasgos y su impecable acabado en blanco inmaculado la convierten en una pieza de verdadera realeza.
               </p>
               <div className="font-sans text-[#a87b51] font-medium text-xl md:text-2xl tracking-widest relative z-10">
-                $25,000 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
+                $2,500 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
               </div>
             </div>
           </div>
 
           {/* Item 2 */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-12 md:gap-24 group relative animate-fade-in-left" style={{ animationDelay: '0.8s' }}>
-            <div className="absolute -top-4 md:-top-6 left-0 md:left-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1935</div>
+            <div className="absolute -top-4 md:-top-6 left-0 md:left-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1985</div>
             <Spotlight />
             <div className="w-full md:w-1/2 flex justify-center md:justify-start relative">
               <div className="relative w-56 h-72 md:w-72 md:h-[24rem] lg:w-80 lg:h-[26rem] flex items-center justify-center">
@@ -438,19 +438,19 @@ export default function Home() {
                   Disponible
                 </span>
               </div>
-              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Cámara <span className="text-[#a87b51] font-medium italic lowercase">clásica</span></h3>
+              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Estatua <span className="text-[#a87b51] font-medium italic lowercase">bronce</span></h3>
               <p className="text-[#fdfbf7]/60 text-base md:text-lg font-light leading-relaxed max-w-sm mb-6">
-                Capturadora de memorias intemporales. Una joya óptica que no solo sirve como un espectacular elemento decorativo, sino como testimonio de la elegancia en la fotografía analógica.
+                Imponente escultura de bronce representando una figura femenina con vestimenta de época, ideal para adornar patios y jardines aportando un toque clásico y distinguido.
               </p>
               <div className="font-sans text-[#a87b51] font-medium text-xl md:text-2xl tracking-widest relative z-10">
-                $56,000 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
+                $3,200 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
               </div>
             </div>
           </div>
 
           {/* Item 3 */}
           <div className="flex flex-col md:flex-row items-center gap-12 md:gap-24 group relative animate-fade-in-right" style={{ animationDelay: '1.0s' }}>
-            <div className="absolute -top-4 md:-top-6 right-0 md:right-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1880</div>
+            <div className="absolute -top-4 md:-top-6 right-0 md:right-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1978</div>
             <Spotlight flip />
             <div className="w-full md:w-1/2 flex justify-center md:justify-end relative">
               <div className="relative w-56 h-72 md:w-72 md:h-[24rem] lg:w-80 lg:h-[26rem] flex items-center justify-center">
@@ -470,19 +470,19 @@ export default function Home() {
                   Disponible
                 </span>
               </div>
-              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Artefacto <span className="text-[#a87b51] font-medium italic lowercase">bronce</span></h3>
+              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Lámpara <span className="text-[#a87b51] font-medium italic lowercase">latón</span></h3>
               <p className="text-[#fdfbf7]/60 text-base md:text-lg font-light leading-relaxed max-w-sm mb-6">
-                Fundición detallada con una pátina natural inigualable. Cada curva de este objeto ha sido pulida por el tiempo, brindando un aire aristocrático a cualquier estudio o biblioteca.
+                Hermosa lámpara de latón con doble pantalla de cristal opalino. Su intrincado diseño y cálida iluminación la convierten en el centro de atención de cualquier estancia.
               </p>
               <div className="font-sans text-[#a87b51] font-medium text-xl md:text-2xl tracking-widest relative z-10">
-                $90,000 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
+                $3,450 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
               </div>
             </div>
           </div>
 
           {/* Item 4 */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-12 md:gap-24 group relative animate-fade-in-left" style={{ animationDelay: '1.2s' }}>
-            <div className="absolute -top-4 md:-top-6 left-0 md:left-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1920</div>
+            <div className="absolute -top-4 md:-top-6 left-0 md:left-8 text-[4rem] md:text-[5.5rem] font-sans font-bold text-[#fdfbf7]/15 select-none z-0 pointer-events-none leading-none">1990</div>
             <Spotlight />
             <div className="w-full md:w-1/2 flex justify-center md:justify-start relative">
               <div className="relative w-56 h-72 md:w-72 md:h-[24rem] lg:w-80 lg:h-[26rem] flex items-center justify-center">
@@ -502,12 +502,12 @@ export default function Home() {
                   Vendida
                 </span>
               </div>
-              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Reliquia <span className="text-[#a87b51] font-medium italic lowercase">sonora</span></h3>
+              <h3 className="font-sans text-3xl md:text-4xl text-[#fdfbf7] mb-4 tracking-widest font-light relative z-10">Antiguo <span className="text-[#a87b51] font-medium italic lowercase">aparador</span></h3>
               <p className="text-[#fdfbf7]/60 text-base md:text-lg font-light leading-relaxed max-w-sm mb-6">
-                Un gramófono excepcionalmente bien conservado. El eco de sus melodías resuena con la majestuosidad de la era dorada, siendo el punto focal perfecto para una sala de estar moderna.
+                Imponente mueble de madera tallada con cubierta de mármol y finos detalles ornamentales. Una pieza robusta que aporta carácter y suma elegancia a cualquier comedor clásico.
               </p>
               <div className="font-sans text-[#a87b51] font-medium text-xl md:text-2xl tracking-widest relative z-10">
-                $38,000 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
+                $2,800 <span className="text-xs font-light text-[#fdfbf7]/50 ml-1">MXN</span>
               </div>
             </div>
           </div>
@@ -572,9 +572,9 @@ export default function Home() {
               
               <h3 className="text-[#fdfbf7] text-xl font-sans tracking-widest font-light mb-4 uppercase">Ubicación</h3>
               <p className="text-[#fdfbf7]/60 font-light leading-relaxed text-sm md:text-base mb-4">
-                Av. Paseo de la Reforma 123<br />
-                Col. Juárez, Cuauhtémoc<br />
-                CDMX, 06600
+                C. 6 Sur 304 c, Los sapos<br />
+                72803 Heroica Puebla de Zaragoza<br />
+                Pue.
               </p>
               <a href="#" className="mt-auto inline-flex items-center gap-2 text-[#a87b51] text-sm uppercase tracking-widest font-semibold hover:text-[#fdfbf7] transition-colors duration-300">
                 Ver en mapa <span className="text-lg leading-none">→</span>
@@ -592,16 +592,16 @@ export default function Home() {
               <h3 className="text-[#fdfbf7] text-xl font-sans tracking-widest font-light mb-4 uppercase">Horario</h3>
               <ul className="text-[#fdfbf7]/60 font-light leading-relaxed text-sm md:text-base space-y-3">
                 <li className="flex justify-between border-b border-[#fdfbf7]/5 pb-2">
-                  <span>Lunes - Viernes</span>
-                  <span className="text-[#fdfbf7]">10:00 - 19:00</span>
+                  <span>Martes - Viernes</span>
+                  <span className="text-[#fdfbf7]">11:30 a.m. - 6:30 p.m.</span>
                 </li>
                 <li className="flex justify-between border-b border-[#fdfbf7]/5 pb-2">
-                  <span>Sábado</span>
-                  <span className="text-[#fdfbf7]">11:00 - 16:00</span>
+                  <span>Sábado - Domingo</span>
+                  <span className="text-[#fdfbf7]">11:00 a.m. - 6:30 p.m.</span>
                 </li>
                 <li className="flex justify-between pb-2">
-                  <span>Domingo</span>
-                  <span className="text-[#a87b51] italic">Cita previa</span>
+                  <span>Lunes</span>
+                  <span className="text-[#a87b51] italic">Cerrado</span>
                 </li>
               </ul>
             </div>
@@ -616,8 +616,8 @@ export default function Home() {
               
               <h3 className="text-[#fdfbf7] text-xl font-sans tracking-widest font-light mb-4 uppercase">Contacto</h3>
               <div className="text-[#fdfbf7]/60 font-light leading-relaxed text-sm md:text-base space-y-4">
-                <a href="tel:+525512345678" className="flex items-center gap-3 hover:text-[#fdfbf7] transition-colors duration-300">
-                  <Phone className="w-4 h-4 text-[#a87b51]" /> +52 55 1234 5678
+                <a href="tel:+522223481666" className="flex items-center gap-3 hover:text-[#fdfbf7] transition-colors duration-300">
+                  <Phone className="w-4 h-4 text-[#a87b51]" /> 222 348 1666
                 </a>
                 <a href="mailto:info@juarezantiguedades.mx" className="flex items-center gap-3 hover:text-[#fdfbf7] transition-colors duration-300">
                   <Mail className="w-4 h-4 text-[#a87b51]" /> info@juarezantiguedades.mx
@@ -627,7 +627,7 @@ export default function Home() {
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                     <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
-                  </svg> @juarezantiguedades
+                  </svg> @juarez_galeriadeantiguedades
                 </a>
               </div>
             </div>

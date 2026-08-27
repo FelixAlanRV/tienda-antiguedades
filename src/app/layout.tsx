@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "El Candelabro | Antigüedades",
+  title: "Juarez | Antigüedades",
   description: "Descubre piezas únicas con historia. Un rincón donde el pasado cobra vida.",
 };
 
